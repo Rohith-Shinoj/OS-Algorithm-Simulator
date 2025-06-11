@@ -260,7 +260,7 @@ var res,pro;
 							}
                             iter++;
 							if(exec1 == exec && exec != pro) // Checks for deadlock
-							{
+							{s
 								console.log("Deadlock");
                                 var li = document.createElement("li");
                                 li.appendChild(document.createTextNode("Deadlock"));
